@@ -1,7 +1,7 @@
 ***
 For Support Count = 100
 ***
-Each list represents word/words that can be used to increase clickbait:
+Each list represents word/words that can be used to increase clickbait with the most frequent at the top:
 ['thing']
 ['make']
 ['people']
