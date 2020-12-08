@@ -73,13 +73,13 @@ list2=np.array(list2)[idx]
 list1=list1[::-1]
 list2=list2[::-1]
 
-#Printing as well as saving the output to a file 
+#Printing as well as saving the output to a file
 fwrite=open('frequentKeywords.txt','w')
 fwrite.close()
 fwrite=open('frequentKeywords.txt','a')
 fwrite.write('***\nFor Support Count = '+supp+'\n***')
-fwrite.write('\nEach list represents word/words that can be used to increase clickbait:\n')
-print('\nEach list represents word/words that can be used to increase clickbait:')
+fwrite.write('\nEach list represents word/words that can be used to increase clickbait with the most frequent at the top:\n')
+print('\nEach list represents word/words that can be used to increase clickbait with the most frequent at the top:')
 for i in list1:
     final_list=[]
     printList=i.split(',')
@@ -90,5 +90,4 @@ for i in list1:
     fwrite.write(str(final_list)+'\n')
 
 fwrite.close()
-
 
