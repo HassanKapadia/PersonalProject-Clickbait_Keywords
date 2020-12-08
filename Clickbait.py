@@ -73,6 +73,7 @@ list2=np.array(list2)[idx]
 list1=list1[::-1]
 list2=list2[::-1]
 
+#Printing as well as saving the output to a file 
 fwrite=open('frequentKeywords.txt','w')
 fwrite.close()
 fwrite=open('frequentKeywords.txt','a')
